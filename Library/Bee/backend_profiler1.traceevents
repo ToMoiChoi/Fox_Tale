@@ -1,0 +1,430 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669989734713984, "dur":1235, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734715231, "dur":1279, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669989734716554, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669989734716572, "dur":415, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669989734717037, "dur":602, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734717639, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992584, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992689, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992772, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992779, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992789, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992792, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992800, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992802, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992811, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992814, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992821, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992823, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992831, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992833, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992839, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992842, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992849, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992863, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734992902, "dur":1857, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669989734717426, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734717688, "dur":5607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723302, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723372, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723429, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723493, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723538, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723587, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723640, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723718, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723776, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723836, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723886, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734723935, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724042, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724151, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724249, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724354, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724464, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724569, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724661, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724754, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724870, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734724969, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725058, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725137, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725218, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725435, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725551, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725632, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734725711, "dur":51791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777503, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777592, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777665, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777732, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777800, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777866, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734777937, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734778002, "dur":122299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669989734900302, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669989734900387, "dur":92177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734717854, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734717854, "dur":5496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723350, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723418, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723470, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723524, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723571, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723637, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723719, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723777, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723827, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723874, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734723926, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724004, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724089, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724186, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724289, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724404, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724511, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724605, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724713, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724819, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734724909, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725014, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725090, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725179, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725416, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725524, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734725613, "dur":111988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669989734837602, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669989734837700, "dur":154868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734717551, "dur":186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734717737, "dur":5615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723352, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723435, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723504, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723572, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723629, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723717, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723773, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723823, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723877, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734723932, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724030, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724133, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724226, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724323, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724413, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724508, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724599, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724698, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724789, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724880, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734724979, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725082, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725160, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725249, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725433, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725560, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734725634, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734726620, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734726692, "dur":77379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669989734804072, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734804167, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669989734804252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734804265, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669989734805730, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734805835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734805842, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734807203, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734807278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734807284, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734808667, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734808739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734808745, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734812092, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734812159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734812166, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669989734813827, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669989734813911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734813919, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669989734816405, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1669989734816569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734816575, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1669989734818302, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1669989734818371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734818377, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1669989734819672, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1669989734819745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734819751, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1669989734821225, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1669989734821429, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669989734821497, "dur":171073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734717670, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734717671, "dur":5620, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723302, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723305, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723368, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723371, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723430, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723488, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723538, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723587, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723701, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723754, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723814, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723870, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734723921, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724002, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724093, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724203, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724297, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724405, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724522, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724637, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724743, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724847, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734724953, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725053, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725132, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725233, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725442, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725540, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734725618, "dur":266859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669989734992478, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669989734992544, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1669989734992545, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734717817, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734717817, "dur":5509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723327, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723411, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723459, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723515, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723571, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723626, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723712, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723772, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723822, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723878, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734723932, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724056, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724158, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724255, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724350, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724439, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724527, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724651, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724754, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724854, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734724994, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725138, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725244, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725435, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725551, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725632, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734725713, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734726879, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734726965, "dur":1094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734728059, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734728139, "dur":1991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734730130, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734730225, "dur":44222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734774447, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734774544, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775587, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775676, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775745, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775810, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775882, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734775945, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776008, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776070, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776134, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776196, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776259, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776322, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776388, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776450, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776512, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776571, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776633, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776693, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776755, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776814, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776873, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776930, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734776990, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777047, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777107, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777167, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777232, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777301, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777362, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777423, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777493, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777555, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777618, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777678, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777739, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777802, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777865, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777924, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669989734777986, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734778047, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1669989734778240, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734778309, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1669989734778405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734779196, "dur":4216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1669989734783484, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734783564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734783571, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734785073, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734785143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734785149, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734786457, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734786532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734786538, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734787843, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734787919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734787925, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734790682, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734790764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734790771, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734792127, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734792202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734792209, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734793466, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734793545, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734793558, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734794999, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734795081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734795088, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734799374, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734799452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734799462, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734800862, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734800939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734800946, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669989734802246, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734802337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734802344, "dur":5369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734807783, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734807866, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734807884, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669989734813610, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734813747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734813756, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1669989734815478, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1669989734815714, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734815837, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level9" }}
+,{ "pid":12345, "tid":5, "ts":1669989734815924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734815949, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level9" }}
+,{ "pid":12345, "tid":5, "ts":1669989734817993, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1669989734818098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734818104, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1669989734819335, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1669989734819411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734819417, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1669989734820818, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1669989734820892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669989734820927, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1669989734822281, "dur":170287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734717943, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734717944, "dur":5407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723351, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723430, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723500, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723563, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723614, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723665, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723712, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723767, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723817, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723870, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723917, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669989734723996, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734724082, "dur":189245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669989734913327, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669989734913420, "dur":79146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734718141, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734718142, "dur":5210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734723353, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669989734723435, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734723493, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1669989734723574, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734723629, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale.exe" }}
+,{ "pid":12345, "tid":7, "ts":1669989734724800, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734724903, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725010, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725088, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725180, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725372, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725430, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725516, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725595, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734725661, "dur":84824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669989734810486, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734810568, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669989734810644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734810650, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669989734814153, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669989734814293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734814298, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669989734815616, "dur":1202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1669989734816818, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734816901, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1669989734816980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734816986, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1669989734820618, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669989734820721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669989734820728, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669989734822059, "dur":170506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734718277, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734718277, "dur":5050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723327, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723415, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723459, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723510, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723566, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723622, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723668, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723714, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723780, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723834, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723886, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734723936, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724045, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724167, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724262, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724359, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724447, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724532, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724635, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724743, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724857, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734724952, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725050, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725135, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725248, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725446, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725535, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725609, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734725668, "dur":39378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734765046, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734765147, "dur":1138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734766285, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734766373, "dur":42843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669989734809216, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734809306, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669989734809385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734809391, "dur":7940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669989734817398, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1669989734817467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734817473, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1669989734818850, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1669989734818929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734818935, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1669989734820589, "dur":1774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Fox'sTale Application/Fox's Tale_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1669989734822376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669989734822383, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Fox'sTale Application/Fox's Tale_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1669989734823905, "dur":168662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669989734996443, "dur":1832, "ph":"X", "name": "ProfilerWriteOutput" }
+,
